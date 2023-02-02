@@ -19,3 +19,7 @@ def getWeather(city):
     allData = {'feed':w.feed,
                'forecast':w.entries}
     return  allData
+
+if __name__=='__main__':
+    app.run(debug=True)
+
